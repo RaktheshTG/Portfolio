@@ -79,6 +79,6 @@ export const projects = [
 
 export const socials = {
   github: 'https://github.com/RaktheshTG',
-  linkedin: 'INSERT_LINKEDIN_LINK_HERE',
-  email: 'INSERT_EMAIL_HERE',
+  linkedin: 'https://www.linkedin.com/in/rakthesh-tg/',
+  email: 'raktheshtg@gmail.com',
 }
