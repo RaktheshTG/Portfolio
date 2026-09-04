@@ -11,6 +11,9 @@ import Marquee from '@/components/Marquee'
 import Work from '@/components/Work'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
+import Skills from '@/components/Skills'
+import Now from '@/components/Now'
+import Achievements from '@/components/Achievements'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -88,8 +91,11 @@ export default function Page() {
       <Nav />
       <Hero />
       <Marquee />
-      <Work />
       <About />
+      <Skills />
+      <Work />
+      <Now />
+      <Achievements />
       <Footer />
     </main>
   )
