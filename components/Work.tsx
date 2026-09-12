@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section id="work" className="work section-pad">
       <div className="section-head" data-reveal>
-        <span className="eyebrow">( 02 — 04 )</span>
+        <span className="eyebrow">( 04 — 07 )</span>
         <h2>
           Selected
           <br />

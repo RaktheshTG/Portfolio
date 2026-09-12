@@ -4,7 +4,7 @@ export default function Achievements() {
   return (
     <section className="achievements section-pad">
       <div className="section-head" data-reveal>
-        <span className="eyebrow">( 06 — 06 )</span>
+        <span className="eyebrow">( 06 — 07 )</span>
         <h2>Academic<br /><em>achievements</em></h2>
       </div>
       <div className="achievements-grid" data-reveal>

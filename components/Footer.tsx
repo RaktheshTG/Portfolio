@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="footer section-pad">
       <div className="section-head">
-        <span className="eyebrow">( 04 — 04 )</span>
+        <span className="eyebrow">( 07 — 07 )</span>
         <h2>
           Let&apos;s make
           <br />

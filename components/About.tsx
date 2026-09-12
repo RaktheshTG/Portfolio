@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="about section-pad">
       <div className="section-head" data-reveal>
-        <span className="eyebrow">( 03 — 06 )</span>
+        <span className="eyebrow">( 02 — 07 )</span>
         <h2>A little<br /><em>about me</em></h2>
       </div>
       <div className="about-copy" data-reveal>

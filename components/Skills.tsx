@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <section className="skills section-pad">
       <div className="section-head" data-reveal>
-        <span className="eyebrow">( 04 — 06 )</span>
+        <span className="eyebrow">( 03 — 07 )</span>
         <h2>What I<br /><em>work with</em></h2>
       </div>
       <div className="skills-grid" data-reveal>
