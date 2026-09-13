@@ -2,7 +2,7 @@ import { currentlyExploring } from '@/lib/data'
 
 export default function Now() {
   return (
-    <section className="now section-pad">
+    <section className="now section-pad" data-num="05">
       <div className="section-head" data-reveal>
         <span className="eyebrow">( 05 — 07 )</span>
         <h2>Currently<br /><em>exploring</em></h2>

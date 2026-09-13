@@ -2,7 +2,7 @@ import { achievements } from '@/lib/data'
 
 export default function Achievements() {
   return (
-    <section className="achievements section-pad">
+    <section className="achievements section-pad" data-num="06">
       <div className="section-head" data-reveal>
         <span className="eyebrow">( 06 — 07 )</span>
         <h2>Academic<br /><em>achievements</em></h2>

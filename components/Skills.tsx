@@ -8,7 +8,7 @@ const tiers = [
 
 export default function Skills() {
   return (
-    <section className="skills section-pad">
+    <section className="skills section-pad" data-num="03">
       <div className="section-head" data-reveal>
         <span className="eyebrow">( 03 — 07 )</span>
         <h2>What I<br /><em>work with</em></h2>
