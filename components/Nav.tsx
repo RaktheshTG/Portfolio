@@ -8,6 +8,7 @@ export default function Nav() {
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+        <a href="/resume.pdf" download className="resume-link">Resume ↓</a>
       </div>
       <span className="nav-status">
         Available for work <i />
