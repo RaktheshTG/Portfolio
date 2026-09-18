@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section id="top" className="hero section-pad">
       <div className="hero-kicker hero-meta">
-        <span>( 01 — 07 )</span>
+        <span>( 01 — 07  )</span>
         <span>Portfolio / 2025</span>
       </div>
 
