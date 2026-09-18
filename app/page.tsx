@@ -14,7 +14,7 @@ import Footer from '@/components/Footer'
 import Skills from '@/components/Skills'
 import Now from '@/components/Now'
 import Achievements from '@/components/Achievements'
-import { Demo } from '@/components/ui/demo'
+import { FloatingPathsBackground } from '@/components/background-paths'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,8 +90,9 @@ export default function Page() {
   return (
     <main ref={root} className="site-shell">
       <Nav />
-      <Demo/>
-      <Hero />
+      <FloatingPathsBackground position={1}>
+        <Hero />
+      </FloatingPathsBackground>
       <Marquee />
       <About />
       <Skills />
