@@ -14,7 +14,9 @@ import Footer from '@/components/Footer'
 import Skills from '@/components/Skills'
 import Now from '@/components/Now'
 import Achievements from '@/components/Achievements'
-import { FloatingPathsBackground } from '@/components/background-paths'
+import ShapeGrid from '@/components/ShapeGrid'
+  
+
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,9 +92,22 @@ export default function Page() {
   return (
     <main ref={root} className="site-shell">
       <Nav />
-      <FloatingPathsBackground position={1}>
-        <Hero />
-      </FloatingPathsBackground>
+      
+      <div className="relative h-[100vh] overflow-hidden">
+        <ShapeGrid
+          className="absolute inset-0"
+          speed={0.5}
+          squareSize={40}
+          direction="diagonal"
+          borderColor="#2F293A"
+          hoverFillColor="#222"
+          shape="square"
+          hoverTrailAmount={0}
+        />
+        <div className="relative z-10 h-full">
+          <Hero />
+        </div>
+      </div>
       <Marquee />
       <About />
       <Skills />
